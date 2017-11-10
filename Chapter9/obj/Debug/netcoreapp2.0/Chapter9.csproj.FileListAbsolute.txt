@@ -1,0 +1,11 @@
+c:\users\felix\source\repos\Chapter9\Chapter9\bin\Debug\netcoreapp2.0\Chapter9.deps.json
+c:\users\felix\source\repos\Chapter9\Chapter9\bin\Debug\netcoreapp2.0\Chapter9.runtimeconfig.json
+c:\users\felix\source\repos\Chapter9\Chapter9\bin\Debug\netcoreapp2.0\Chapter9.runtimeconfig.dev.json
+c:\users\felix\source\repos\Chapter9\Chapter9\bin\Debug\netcoreapp2.0\Chapter9.dll
+c:\users\felix\source\repos\Chapter9\Chapter9\bin\Debug\netcoreapp2.0\Chapter9.pdb
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.csprojResolveAssemblyReference.cache
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.csproj.CoreCompileInputs.cache
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.AssemblyInfoInputs.cache
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.AssemblyInfo.cs
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.dll
+c:\users\felix\source\repos\Chapter9\Chapter9\obj\Debug\netcoreapp2.0\Chapter9.pdb
