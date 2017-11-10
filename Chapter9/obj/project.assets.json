@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\felix\\source\\repos\\Chapter9\\Chapter9\\Chapter9.csproj",
+      "projectUniqueName": "C:\\Users\\felix\\source\\repos\\Chapter9\\Chapter9\\Chapter9.csproj",
       "projectName": "Chapter9",
-      "projectPath": "c:\\users\\felix\\source\\repos\\Chapter9\\Chapter9\\Chapter9.csproj",
+      "projectPath": "C:\\Users\\felix\\source\\repos\\Chapter9\\Chapter9\\Chapter9.csproj",
       "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\felix\\source\\repos\\Chapter9\\Chapter9\\obj\\",
+      "outputPath": "C:\\Users\\felix\\source\\repos\\Chapter9\\Chapter9\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

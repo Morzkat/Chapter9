@@ -6,7 +6,7 @@ namespace Chapter9
     {
         public Program()
         {
-            int exercise = 50;
+            int exercise = 0;
             do
             {
                 Console.WriteLine("Elige un ejercicio");
@@ -110,28 +110,43 @@ namespace Chapter9
 
                 if (numbers[i] % 10 == 0)
                 {
-                    Console.WriteLine("En la posicion: " + i + "se encuentra un multiplo de 10");
+                    Console.WriteLine("En la posicion: " + (i+1) + " se encuentra un multiplo de 10");
                 }
             }
         }
 
         private void Exercise48()
         {
-            int[] numbers = new int[10];
+            int[] numbers = new int[2];
+            int evenQuantity  = 0;
+            int number2;
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Digite un numero");
                 numbers[i] = Int32.Parse(Console.ReadLine());
             }
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 2; i++)
             {
-                int firstDigit = GetFirstDigit(numbers[i]);
 
-                if (numbers[i] % 10 == 0)
+                if (IsPrime(numbers[i]))
                 {
-                    Console.WriteLine("En la posicion: " + i + "se encuentra un multiplo de 10");
+                    int even = 0;
+
+                    even = (IsEven(GetFirstDigit(numbers[i]))) ? even += 1 : even;
+                    even = (IsEven(GetLastDigit(numbers[i]))) ? even += 1 : even;
+
+                    if (even > evenQuantity)
+                    {
+                        evenQuantity = even;
+                        number2 = numbers[i];
+                    }
+                    
+                }
+                else
+                {
+                    Console.WriteLine(numbers[i] + " No es un numero primo");
                 }
             }
         }
@@ -176,7 +191,7 @@ namespace Chapter9
 
         private bool IsPrime(int number)
         {
-            for (int i = 3; i <= number; i++)
+            for (int i = 3; i < number; i++)
             {
                 if (number % i == 0) return false;
             }
